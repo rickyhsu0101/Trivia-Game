@@ -1,0 +1,26 @@
+.body{
+    box-sizing: border-box;
+}
+.question{
+    padding: 20px 20px;
+}
+h1{
+    text-align: center;
+}
+.question:nth-child(odd){
+    background: black;
+    color: white;
+}
+.question:nth-child(even){
+    background: white;
+    color: black;
+}
+.jumbotron{
+    padding: 0;
+}
+p{
+    font-size: 1.5em;
+}
+input[type='submit']{
+    margin: auto;
+}
